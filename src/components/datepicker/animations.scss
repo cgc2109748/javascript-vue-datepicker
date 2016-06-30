@@ -1,0 +1,49 @@
+.slidev-transition {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
+  transform: translateX(0);
+  opacity: 1;
+  &.off{
+    transition-duration: 0s;
+  }
+}
+
+.slidev-leave, .direction-prev.slidev-enter {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slidev-enter, .direction-prev.slidev-leave {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+
+
+.slideh-transition {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
+  transform: translateX(0);
+  opacity: 1;
+  &.off{
+    transition-duration: 0s;
+  }
+}
+
+.slideh-leave, .direction-prev.slideh-enter {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.slideh-enter, .direction-prev.slideh-leave {
+  transform: translateY(100%);
+  opacity: 0;
+}
