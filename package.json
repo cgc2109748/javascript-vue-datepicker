@@ -2,6 +2,7 @@
   "name": "datepicker",
   "version": "1.0.0",
   "description": "A Vue.js project",
+  "keyword": "javascript"
   "author": "",
   "private": true,
   "scripts": {
