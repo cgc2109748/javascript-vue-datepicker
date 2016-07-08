@@ -3,7 +3,8 @@
 ##DEMO
 [demo](https://cgc2109748.github.io/javascript-vue-datepicker/)
 
-#It maybe a bit slow,please be patient
+
+>It maybe a bit slow,please be patient
 
 ## Build Setup
 
