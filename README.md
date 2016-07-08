@@ -1,7 +1,7 @@
 # vue-datepicker
 
 ##DEMO
-[demo](https://cgc2109748.github.io/vue-datepicker/)
+[demo](https://cgc2109748.github.io/javascript-vue-datepicker/)
 
 ## Build Setup
 
